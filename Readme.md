@@ -37,6 +37,43 @@ The project includes extensions to enhance its functionality:
 - Integration of static images or pre-captured video sequences with virtual objects
 - Manipulation of detected targets to make them look like something else
 
+### Install Dependencies
+
+1. Install the required dependencies:
+    - OpenCV
+    - C++ compiler (if not already installed)
+
+2. Compile the program:
+    ```
+    g++ -o main main.cpp `pkg-config --cflags --libs opencv`
+    ```
+
+3. Run the compiled executable:
+    ```
+    ./main
+    ```
+### Usage
+
+To use the program, follow these steps:
+
+1. Run the program.
+2. Press keys to activate different functionalities:
+    - Press 's' to enter save mode.
+    - Press 'm' to apply an overlay image.
+    - Press 'q' to exit the program.
+
+**Key Functions:**
+
+- **'s':** Enter save mode.
+  - Saves all the corner points and corresponding 3D world points.
+  - Stores the corresponding images.
+
+- **'m':** Apply an overlay image.
+  - Makes the chessboard pattern look like something else.
+
+- **'q':** Exit the program.
+
+
 ### Learning Reflection
 The project provided valuable hands-on experience in computer vision, augmented reality, and related techniques. It deepened understanding of fundamental concepts and practical applications, equipping with skills applicable across various domains.
 
