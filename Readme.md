@@ -28,7 +28,6 @@ The project is organized into several modules, each focusing on a specific task.
 
 6. **Creation of Virtual Objects**: This module extends the system to create and project virtual objects in 3D space onto the image, maintaining correct orientation as the camera or target moves.
 
-7. **Detection of Robust Features**: This module explores feature detection techniques, particularly the Harris corner detection algorithm, for identifying salient features in real-time video streams.
 
 ## Extensions
 The project includes extensions to enhance its functionality:
